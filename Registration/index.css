@@ -59,7 +59,7 @@ container-submit,button{
     text-align: center;
     border-radius: 20px;
     font-size: 18px;
-   font-weight: bolder;
+    font-weight: bolder;
     padding-bottom: 10px;
     width: 100%;
 
@@ -93,6 +93,3 @@ container-submit,button:hover{
       margin: 0;
     }
   }
-  
-  
-  
