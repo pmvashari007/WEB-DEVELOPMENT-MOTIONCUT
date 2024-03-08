@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    outline: none;
+}
+section{
+    min-height: 100vh;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(3, 1, 29);
+}
+header{
+    width:100%;
+    padding: 0.5rem 2%;
+    display: flex;
+    background-color: rgb(247, 245, 245);
+    justify-content: space-around;
+}
+.banner{
+    width: 97.5%;
+    margin-top: 15px;
+    display: inline-block;
+    height: 120px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img9.png);
+}
+nav a{
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    /* transition: 3s; */
+}
+nav {
+    margin-top: 10px;
+}
+.search{
+    padding: 5px;
+    color: black;
+    width: 500px;
+    margin-left: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+header .head{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.minibanner{
+    width: 100%;
+    padding: 21px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+  color: white;
+  width: 225px;
+  margin:10px 10px;
+  text-align: center;
+  border: 3px solid white;
+  display: inline-block;
+}
+.cards:hover{
+    scale: 1.05;
+    transition: 0.5s;
+    color: aqua;
+    box-shadow: 0 0 20px aqua;
+}
+
+button{
+    padding: 7px;
+    width: 40%;
+    margin: 5px 5px 10px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    color: aqua;
+    /* box-shadow: 0 0 10px aqua; */
+    background-color: rgb(32, 32, 31);
+}
+
+
